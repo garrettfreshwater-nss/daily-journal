@@ -1,0 +1,58 @@
+/* body {
+    background-color: black !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  @media screen and (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: black;
+    }
+  } */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/* h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+} */
+form {
+  border: .04em solid rgba(0,0,0,.87);
+  border-shadow:;
+  padding: 30px;
+  width: 850px;
+  border-bottom: none;
+  border-top: none;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  color: white !important;
+}
+
+.textfield-box {
+  background-color: white;
+}
+
+.floating-label {
+  color: black !important;
+}
+
+
+
+
+
