@@ -15,21 +15,14 @@ const EntryListComponent = () => {
     const entries = useJournalEntries()
 
     entryLog.innerHTML += `
-            ${
-               for (const entry of entries) {
-                (
-                    (currentEntry) => {
-                        return JournalEntryComponent(currentEntry)
-                   
-               }
-
-
-                entries.map(
-                    (currentEntry) => {
-                        return JournalEntryComponent(currentEntry)
-                    }
-                ).join("") //tells javascript to return with no content ex. a comma between items in string
+    <section>
+        ${
+            entries.map((entry) =>{
+                return JournalEntryComponent(entry)
             }
+        ).join("")
+        }
+    </section>
     `
 }
 
