@@ -9,6 +9,7 @@
 // This is the original data. Can't Touch This.
 const journal = [
     {
+        id: 0,
         date: "07/24/2025",
         concept: "HTML",
         entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
@@ -17,13 +18,13 @@ const journal = [
     {
         date: "07/29/2025",
         concept: "HTML & CSS",
-        entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum amet, eum vitae suscipit assumenda nulla nesciunt doloremque sequi ipsum quo blanditiis culpa, praesentium consequatur. Ex nemo atque libero sint.",
+        entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum amet.",
         mood: "Sad"
     },
     {
         date: "08/17/2025",
         concept: "HTML, CSS, & JS",
-        entry: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum amet, eum vitae suscipit assumenda nulla nesciunt doloremque sequi ipsum quo blanditiis culpa, praesentium consequatur. Ex nemo atque libero sint.",
+        entry: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum amet.",
         mood: "Happy"
     },
     {

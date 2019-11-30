@@ -17,10 +17,10 @@ const EntryListComponent = () => {
     entryLog.innerHTML += `
     <section>
         ${
-            entries.map((entry) =>{
+            entries.map((entry) => {
                 return JournalEntryComponent(entry)
             }
-        ).join("")
+        ).join("<hr/>")
         }
     </section>
     `

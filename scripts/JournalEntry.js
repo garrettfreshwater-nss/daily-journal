@@ -4,10 +4,12 @@
  */
 const JournalEntryComponent = (entry) => {
     return `
-        <section id="entry--${entry.id}" class="journalEntry">
-            Display the entry's full text, and the date
-            it was entered here.
-        </section>
+        <div id="entry--${entry.id}" class="journalEntry">
+            <h2>Date: ${entry.date}</h2>
+            <h3>Conecept Covered: ${entry.concept}</h3>
+            <p>Thoughts: ${entry.entry}</p>
+            <p>Today I was feeling ${entry.mood}.</p>
+        </div>
     `
 }
 
