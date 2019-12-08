@@ -47,21 +47,21 @@ label {
 }
 
 .textfield-box {
-  background-color: black;
   display:flex;
   flex-direction:column;
+  background-color:#fff;
 }
 
-.floating-label {
-  color: black !important;
-}
+
 
 div.journalEntry {
-  border: 1em solid black;
+  border: .01em solid white;
+box-shadow: 0px 10px 15px 0px white;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 550px;
+padding: 20px;
 }
 
 
